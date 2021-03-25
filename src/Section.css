@@ -1,0 +1,45 @@
+.section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8E7CB5;
+    height: 392px;
+    width: 100vw;
+}
+
+.section .row
+{
+ 
+    width: 1224px!important;
+}
+
+.section h1{
+    color: #ffffff;
+    
+/* font-family: Helvetica Neue; */
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 140%;
+/* or 56px */
+}
+
+.section p{
+    /* font-family: Helvetica Neue; */
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+    color: #ffffff;
+}
+
+
+.section .row h5{
+    color: #ffffff!important;
+    text-decoration: underline;
+}
+
+.section .row h5 .icon{
+margin-bottom: 5px;
+}

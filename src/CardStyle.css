@@ -1,0 +1,68 @@
+.cardStyle
+{
+    width: 100vw;
+height: 480px;
+left: 0px;
+background: #F7F3FF;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.cardStyle .row
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 90%;
+  width: 1440px;
+}
+
+.cardStyle .row .cardStyle__disclaimer .cardStyle__icon
+{
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 60px */
+    color: #000000;
+    margin: 10px 0 10px 50px;
+    background-color: white;
+    padding: 5px;
+    color: #CCB3FF;;
+}
+
+.cardStyle .row .cardStyle__disclaimer h2
+{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    /* line-height: 150%; */
+    /* identical to box height, or 60px */
+    color: #000000;
+    padding: 0 50px;
+}
+
+.cardStyle .row .cardStyle__disclaimer p
+{
+    
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+
+color: #000000;
+padding:  0 50px;
+}
+
+.cardStyle .row .cardStyle__carousel
+{
+    padding: 50px;
+}
+

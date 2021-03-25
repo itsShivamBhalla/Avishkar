@@ -1,0 +1,87 @@
+.faq
+{
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq .accordion
+{
+
+    width: 808px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: #E5E5E5!important;
+    margin: 50px 0;
+   
+}
+
+
+
+.faq .accordion h1{
+    text-align: center;
+}
+
+.faq .accordion .accordion-item h2 button{
+    border: none;
+    outline: none;
+    background-color: #E5E5E5;
+    text-decoration: none;
+
+}
+.faq .accordion .accordion-item h2 button
+{
+    
+font-style: normal!important;
+font-weight: 500!important;
+font-size: 20px!important;
+line-height: 32px!important;
+/* identical to box height, or 160% */
+
+
+color: #F2707C!important;
+}
+.faq .accordion .accordion-item .accordion-body
+{
+    
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* High emphasis text */
+
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside Auto Layout */
+
+
+/* margin: 16px 0px; */
+background-color: #E5E5E5;
+
+}
+.faq .accordion .accordion-item h2 button:visited
+{
+   
+    border: none!important;
+    text-decoration: none!important;
+    outline: none !important;
+    box-shadow: none!important;
+}
+
+.faq .accordion .accordion-item h2 button:focus,::after
+{
+    outline: none!important;
+    border: none!important;
+    box-shadow: none!important;
+    text-decoration: none!important;
+}
+.accordion-toggle:focus{outline: none;}

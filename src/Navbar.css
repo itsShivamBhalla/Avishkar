@@ -1,0 +1,61 @@
+.navbar
+{
+    display: flex;
+align-items: center;
+width: 100vw;
+height: 104px;
+left: 0px;
+top: 0px;
+background-color: #FFFFFF!important;
+
+}
+
+.navbar .container-fluid
+{
+    width: 100%!important;
+    height: 100%!important;
+    margin: 0 100px!important;
+}
+
+
+.carousel-caption
+{
+color: #ffffff;
+padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+
+    position: absolute;
+width: 87px;
+height: 21px;
+left: 138px;
+top: 33px;
+}
+
+
+
+.navbar-nav
+{
+    
+    display: flex;
+    align-items: center;
+}
+
+.nav-link
+{
+padding: 0 30px!important;
+color: #262A2F!important;
+}
+
+.navbar button
+{
+    background: #F2707C!important;
+border-radius: 4px!important;
+color: #ffffff;
+border: none;
+outline: none;
+}
+

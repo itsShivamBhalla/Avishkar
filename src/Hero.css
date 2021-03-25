@@ -1,0 +1,59 @@
+.hero
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 420px!important;
+ 
+}
+
+.hero .row
+{
+    width: 1224px!important;
+}
+
+.hero .row h1
+{
+    margin-top: 30px;
+/* font-family: Roboto; */
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 130%;
+/* or 62px */
+
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+}
+
+.hero .row p{
+    
+/* font-family: Roboto; */
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+margin-top: 20px!important;
+}
+
+
+.hero .row button
+{
+    margin-top: 15px;
+    
+    background: #F2707C!important;
+border-radius: 4px!important;
+color: #ffffff;
+border: none;
+outline: none;
+border-radius: 25px!important;
+
+}
