@@ -7,18 +7,44 @@ height: 104px;
 left: 0px;
 top: 0px;
 background-color: #FFFFFF!important;
+flex-direction: row;
 
 }
+@media (max-width: 576px) { 
+    .navbar{
+        height: 64px!important;
+        padding: 0!important;
+        margin: 0!important;
+        /* margin: 0!important; */
+    }
+    
 
-.navbar .container-fluid
+    .navbar .container-fluid
+    {
+     
+       margin: 0;
+    }
+    
+}
+@media (min-width: 576px)
+{
+    .navbar .container-fluid
 {
     width: 100%!important;
     height: 100%!important;
     margin: 0 100px!important;
 }
 
+}
 
-.carousel-caption
+
+.navbar-brand img{
+    width: 135px;
+height: 49px;
+}
+
+
+/* .carousel-caption
 {
 color: #ffffff;
 padding-top: 0.3125rem;
@@ -33,7 +59,7 @@ width: 87px;
 height: 21px;
 left: 138px;
 top: 33px;
-}
+} */
 
 
 

@@ -10,7 +10,21 @@ align-items: center;
 justify-content: center;
 
 }
-
+@media (max-width: 576px)
+{
+    .cardStyle
+    {
+        width: 100vw;
+    height: 750px!important;
+    left: 0px;
+    background: #F7F3FF;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+}
 .cardStyle .row
 {
     display: flex;

@@ -6,7 +6,7 @@ function CardStyle() {
     return (
         <div className="cardStyle">
             <div class="row justify-content-evenly align-center">
-    <div class="col-md-6 cardStyle__carousel ">
+    <div class="col-md-6 col-sm-12 cardStyle__carousel ">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -22,7 +22,7 @@ function CardStyle() {
 </div>
 
    </div>
-    <div class="col-md-6  cardStyle__disclaimer">
+    <div class="col-md-6 col-sm-12 cardStyle__disclaimer">
    
     <AiFillFormatPainter className="cardStyle__icon"/>
     <br/>
